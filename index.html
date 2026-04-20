@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CreatorHub</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    body { font-family: 'Poppins', sans-serif; }
+  </style>
+</head>
+
+<body class="bg-gradient-to-br from-purple-100 via-white to-pink-100">
+
+<!-- NAVBAR -->
+<nav class="flex justify-between items-center p-5 bg-white/30 backdrop-blur-lg shadow-md">
+  <h1 class="text-2xl font-bold text-purple-600">CreatorHub</h1>
+  <a href="admin.html" class="text-gray-700 hover:text-purple-600">Admin</a>
+</nav>
+
+<!-- HERO -->
+<section class="text-center py-20">
+  <h1 class="text-5xl font-bold text-gray-800 mb-4">
+    Hire Skilled Workers Easily
+  </h1>
+  <p class="text-gray-600 mb-6">
+    Find the right talent for your job instantly
+  </p>
+  <a href="#form" class="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-3 rounded-full shadow-lg hover:scale-105 transition">
+    Hire Now
+  </a>
+</section>
+
+<!-- FORM -->
+<section id="form" class="flex justify-center pb-20">
+  <form id="form" class="bg-white/40 backdrop-blur-xl p-8 rounded-2xl shadow-xl w-80 space-y-4">
+
+    <h2 class="text-xl font-semibold text-center">Apply Now</h2>
+
+    <input type="text" id="name" placeholder="Name" class="w-full p-2 rounded-lg border focus:ring-2 focus:ring-purple-400" required>
+    <input type="text" id="skill" placeholder="Skill" class="w-full p-2 rounded-lg border focus:ring-2 focus:ring-purple-400" required>
+    <input type="email" id="email" placeholder="Email" class="w-full p-2 rounded-lg border focus:ring-2 focus:ring-purple-400" required>
+    <input type="text" id="resume" placeholder="Resume Link" class="w-full p-2 rounded-lg border focus:ring-2 focus:ring-purple-400">
+    <textarea id="intro" placeholder="Self Introduction" class="w-full p-2 rounded-lg border focus:ring-2 focus:ring-purple-400"></textarea>
+
+    <button class="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white py-2 rounded-lg hover:scale-105 transition">
+      Submit
+    </button>
+
+  </form>
+</section>
+
+<!-- CONTACT -->
+<section class="bg-white/40 backdrop-blur-lg p-10 mx-5 rounded-2xl shadow-xl mb-10">
+  <h2 class="text-2xl font-bold text-center mb-6 text-purple-600">
+    Contact Me
+  </h2>
+
+  <div class="text-center space-y-3 text-gray-700">
+    <p>👤 <strong>Name:</strong> Ganesh A</p>
+    <p>📧 <strong>Email:</strong> ganesh.dev2410@gmail.com</p>
+
+    <p>
+      🌐 <strong>Portfolio:</strong> 
+      <a href="https://wwwaganesh10-arch.github.io/my-portfolio/" target="_blank" class="text-blue-500 underline">
+        Visit My Portfolio
+      </a>
+    </p>
+
+    <p>
+      💼 <strong>GitHub:</strong> 
+      <a href="https://github.com/wwwaganesh10-arch" target="_blank" class="text-blue-500 underline">
+        github.com/wwwaganesh10
+      </a>
+    </p>
+
+    <a href="https://wa.me/919150363644" target="_blank"
+      class="inline-block mt-4 bg-green-500 text-white px-5 py-2 rounded-lg hover:scale-105 transition">
+      Chat on WhatsApp
+    </a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="text-center p-5 text-gray-500">
+  © 2026 CreatorHub
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
