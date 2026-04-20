@@ -1,4 +1,4 @@
-const API = "http://localhost:3000"; // change after deploy
+const API = "https://hiring-1d2e.onrender.com"; // change after deploy
 
 const form = document.getElementById("form");
 
